@@ -6,8 +6,8 @@ var request = require('request');
 
 app.use(bodyParser.json());
 
-app.listen(80,function () {
-    console.log('Server started. Listening on port 80');
+app.listen(8082,function () {
+    console.log('Server started. Listening on port ');
 });
 
 app.get('/', function (req, res) {
